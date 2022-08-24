@@ -30,9 +30,22 @@ public class ColeccionLibros {
 
 
 
+    public static int BuscarLibroAutor(){
 
+
+    }
     public static void mostrarBusquedaLibroAutor(String[][] misLibros, String titulo, String autor, String editorial){
+        for (int i = 0; i < misLibros.length; i++) {
+            for (int j = 0; j < misLibros[i].length; j++) {
 
+                if(misLibros[i][j].equals(misLibros) || misLibros.equals(titulo)) {
+                        System.out.println("Se encuentra en la coleccion!");
+                        break;
+                } else {
+                        System.out.println("No se encuentra en la coleccion!");
+                }
+            }
+        }
     }
 
     private static void mostrarTodaColeccion(String[][] misLibros) {
