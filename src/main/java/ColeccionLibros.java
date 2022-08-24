@@ -17,14 +17,17 @@ public class ColeccionLibros {
 
     }
 
-    /*public static String[][] agregarLibro(String misLibros[][], String titulo, String autor, String editorial){
+    public static String[][] agregarLibro(String misLibros[][], String titulo, String autor, String editorial) {
+
         for (int i = 0; i < misLibros.length; i++) {
             for (int j = 0; j < misLibros[i].length; j++) {
             }
 
         }
+        return misLibros ;
+    }
 
-    } */
+
 
 
 
